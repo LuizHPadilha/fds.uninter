@@ -1,0 +1,102 @@
+
+        body {
+            background-color: rgba(159, 248, 107, 0.973);
+        }
+
+     /*Titulo*/
+
+        h1 {
+            color: rgb(83, 14, 211);
+            text-align: center;
+        }
+
+    /*Corpo*/
+
+        p {
+            font-size: large;
+            max-width: 800px;
+            text-align: center;
+            text-align: justify;
+            margin: auto;
+        }
+
+     /*Hobbies*/
+
+        ul{
+            margin: 1rem auto;
+            max-width: 800px;
+            color: rgb(171, 14, 202);
+            text-justify: auto;
+        }
+
+        img{
+            max-width: 300px;
+            border-radius: 12px;
+            display: block;
+            width: 100%;
+            margin: 1rem auto;
+        }
+     /*LINK*/
+        a {  
+            text-align: center;
+            margin: 1.5rem auto;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: rgb(230, 130, 17);
+        }
+
+     /*Tabela*/
+
+         table {
+            width: 100%;
+            max-width: 800px;
+            margin: 2rem auto;
+            border-collapse: collapse;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+         table, th, td {
+            border: 1px solid #ccc;
+        }
+        
+        td {
+            padding: 0.5rem;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        table img {
+            max-width: 150px;
+            border-radius: 6px;
+        }
+
+     /*Botao*/
+
+         .btn {
+             display: block;
+             width: fit-content;
+             margin: 1.5rem auto;
+             background-color: deepskyblue;
+             color: rgb(0, 0, 0);
+            font-size: 1rem;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: opacity 0.2s ease;
+             }
+
+            .btn:hover {
+                opacity: 0.85s;
+            }
+
+    /*Mensagem*/
+
+    #mensagem {
+        text-align: center;
+        font-weight: 600;
+        margin-top: 1rem;
+        color: blueviolet;
+        display: none;
+    }
